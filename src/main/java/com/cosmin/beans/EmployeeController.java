@@ -1,4 +1,4 @@
-package com.cosmin.ignite.beans;
+package com.cosmin.beans;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
