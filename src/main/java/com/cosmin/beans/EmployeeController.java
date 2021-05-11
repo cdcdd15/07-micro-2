@@ -10,6 +10,7 @@ public class EmployeeController {
 
 	@GetMapping("/hello-world")
 	public ResponseEntity<String> hello() {
+		System.out.println("In 07-micro-2");
 		return new ResponseEntity<String>("Hello world updated 2 (server)", HttpStatus.OK);
 	}
 	
