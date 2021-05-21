@@ -11,10 +11,10 @@ import lombok.extern.slf4j.Slf4j;
 @SpringBootApplication
 @EnableDiscoveryClient
 @Slf4j
-public class SpringBootMicroApplication {
+public class MicroTwoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootMicroApplication.class, args);
+		SpringApplication.run(MicroTwoApplication.class, args);
 		String message = "is started";
 		StaticLogs.staticLogs(log, message);
 	}
